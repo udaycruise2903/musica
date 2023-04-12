@@ -13,5 +13,5 @@ Search music from iTunes API and display results
 
 
 ### Screenshots
-![Home](../screenshots/search_home.png)
-![Search results](../screenshots/search_results.png)
+![Home](/screenshots/search_home.png)
+![Search results](/screenshots/search_results.png)
