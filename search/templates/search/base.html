@@ -1,35 +1,29 @@
-<!doctype html>
+{% load static %}
 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="musica>
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="">
-  <meta property="og:description" content="search music">
-  <meta property="og:image" content="image.png">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
-
-<body>
-    <h2>Music Search engine</h2>
-  <!-- your content here... -->
-
-
-
-  <div class="container mt-4">{% block content %} {% endblock %}</div>
-  <script src="js/scripts.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>musica - Music Search Engine</title>
+        <meta name="description" content="Search for your favorite music">
+        <meta name="author" content="Uday Kiran">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="favicon.png">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <h1 class="center-align">Musica</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">{% block content %} {% endblock %}</div>
+        <!--<script src="js/scripts.js"></script>-->
+    </body>
 </html>

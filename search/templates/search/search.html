@@ -1,13 +1,26 @@
-<!-- search/templates/search/form.html -->
-
 {% extends 'base.html' %}
 
 {% block content %}
-<h3>Search Music</h3>
-<form method="post">
-    {% csrf_token %}
-    {{ form }}
-    <button type="submit" class="search btn btn-secondary">Search</button>
-</form>
-
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">
+                        <i class="material-icons"></i> Search Music
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            {{ form.as_p }}
+                        </div>
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
