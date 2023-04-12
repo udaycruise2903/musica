@@ -24,3 +24,26 @@ Search music from iTunes API and display results
 Homepage          - 127.0.0.1:8000/
 Search results    - 127.0.0.1:8000/search/query/
 </pre>
+
+### Installation
+```sh 
+# clone this repository
+git clone https://github.com/udaycruise2903/musica.git
+#    (or)
+git clone git@github.com:udaycruise2903/musica.git
+
+# Install poetry
+pip install poetry
+
+# Enter musica directory
+cd musica/
+
+# Setup environment
+make install
+
+# run tests
+make test
+
+# run formatter, type-checker on code
+make check
+```
