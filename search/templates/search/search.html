@@ -1,0 +1,13 @@
+<!-- search/templates/search/form.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Search Music</h3>
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit" class="search btn btn-secondary">Search</button>
+</form>
+
+{% endblock %}
