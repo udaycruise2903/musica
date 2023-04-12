@@ -20,5 +20,7 @@ Search music from iTunes API and display results
 
 ### URLs
 
+<pre>
 Homepage          - 127.0.0.1:8000/
 Search results    - 127.0.0.1:8000/search/query/
+</pre>
