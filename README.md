@@ -9,13 +9,14 @@
 Search music from iTunes API and display results
 
 - **Github repository**: <https://github.com/udaycruise2903/musica/>
-- **Documentation** <https://udaycruise2903.github.io/musica/>
+- **Documentation**:
+<https://udaycruise2903.github.io/musica/>
 
 
 ### Screenshots
+![search_home](https://user-images.githubusercontent.com/56758575/231538678-68dd54f1-def1-4e0b-90e1-55f4ac8e92e7.png)
+![search_results](https://user-images.githubusercontent.com/56758575/231538701-c1083c9c-cf2d-4365-b4a6-366e4f607584.png)
 
-<img src="./screenshots/search_home.png" alt="Homepage" style="height: 100px; width:100px;"/>
-<img src="./screenshots/search_results.png" alt="Results page" style="height: 100px; width:100px;"/>
 
 ### URLs
 
