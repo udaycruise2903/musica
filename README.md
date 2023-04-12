@@ -13,5 +13,11 @@ Search music from iTunes API and display results
 
 
 ### Screenshots
-![Home](/screenshots/search_home.png)
-![Search results](/screenshots/search_results.png)
+
+<img src="/screenshots/search_home.png" alt="Homepage" style="height: 100px; width:100px;"/>
+<img src="/screenshots/search_search.png" alt="Results page" style="height: 100px; width:100px;"/>
+
+### URLs
+
+Homepage                 - 127.0.0.1:8000/
+Search results           - 127.0.0.1:8000/search/<query>/
